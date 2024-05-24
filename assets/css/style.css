@@ -1,0 +1,32 @@
+.lampara {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    animation: move 3s steps(1) infinite;
+    border-radius: 50%;
+  
+}
+@keyframes move { 
+0%,100% {
+
+    background-color: rgb(15, 230, 36);
+    box-shadow:0px 0px 50px 30px rgb(15, 230, 36) ;
+}
+50% {
+    background-color: yellow;
+    box-shadow:0px 0px 50px 30px yellow ;
+    
+    transform: translateY(150px);
+}
+80% {
+    background-color: red;
+    box-shadow:0px 0px 50px 30px red ;
+    transform: translateY(300px);
+   
+}
+
+    
+}
+
+
+
